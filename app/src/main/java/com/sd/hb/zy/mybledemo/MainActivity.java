@@ -43,7 +43,9 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<BluetoothDevice> bluetoothDeviceArrayList = new ArrayList<>();
     private BleDeviceListAdapter adapter;
 
-
+    /**
+     * 蓝牙设备
+     */
     private BluetoothDevice mBluetoothDevice;
     /**
      * 数据的读写操作
